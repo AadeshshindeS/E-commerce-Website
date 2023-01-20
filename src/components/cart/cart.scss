@@ -1,0 +1,116 @@
+.cart_main {
+  // background-color: red;
+  width: 100%;
+  height: 1000px;
+  margin: -1px;
+  padding: 1px;
+
+  .back_button {
+    button {
+      background-color: #dfa432;
+      color: white;
+      border: none;
+      font-size: 30px;
+      padding: 10px 35px;
+      border-radius: 27px;
+      margin: 20px 0px 0px 35px;
+      cursor: pointer;
+    }
+  }
+
+  .card_body {
+    // background-color: yellow;
+    width: 80%;
+    height: 120px;
+    margin: 40px auto;
+    display: flex;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    .image {
+      // background-color: green;
+      width: 33.33%;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 50%;
+        height: 90%;
+        // object-fit: contain;
+        border-radius: 20px 0px 0px 20px;
+      }
+    }
+
+    .name {
+      // background-color: blue;
+      width: 33.33%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        margin: 0px auto;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+
+    .price {
+      // background-color: aqua;
+      width: 33.33%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .add_minus {
+      // background-color: orangered;
+      width: 33.33%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      button {
+        font-size: 30px;
+        // padding: 0px 5px;
+        border: none;
+        background-color: #dfa432;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 33.33%;
+      }
+      h2 {
+        width: 33.33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .delete {
+      // background-color: violet;
+      width: 33.33%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 25px;
+        padding: 8px 16px;
+        border-radius: 23px;
+        cursor: pointer;
+      }
+    }
+  }
+}
