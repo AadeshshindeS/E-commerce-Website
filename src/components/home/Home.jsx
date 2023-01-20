@@ -44,15 +44,15 @@ const Home = () => {
     <div>
       <div className="buttons_for_filter">
         <button onClick={getAllData}>All</button>
+        <button onClick={() => filterNameData("women's clothing")}>
+          Women's clothing
+        </button>
         <button onClick={() => filterNameData("men's clothing")}>
           Men's clothing
         </button>
         <button onClick={() => filterNameData("jewelery")}>Jewelery</button>
         <button onClick={() => filterNameData("electronics")}>
           Electronics
-        </button>
-        <button onClick={() => filterNameData("women's clothing")}>
-          Women's clothing
         </button>
       </div>
 
